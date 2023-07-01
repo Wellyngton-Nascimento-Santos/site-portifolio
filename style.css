@@ -305,6 +305,11 @@ main .sobre {
         background-size: cover;
     }
 
+    header {
+        justify-content: space-between;
+        padding: 30px 70px;
+    }
+
     header .navegacao-primaria {
         display: none;
     }
@@ -339,4 +344,32 @@ main .sobre {
     .sobre_conteudo {
         grid-column: 1/-1;
     }
+}
+
+/*EXPERIENCIAS*/
+
+.my_resume {
+    color: white;
+}
+
+.resume_generico {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 10px;
+    align-items: start;
+}
+
+.resume_generico h2 {
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    background-color: #2a58d6;
+    justify-self: start;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.resume_generico h2 i {
+    margin-right: 10px;
 }
