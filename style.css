@@ -609,3 +609,15 @@ main .sobre {
     font-family: 'Poppins';
 }
 
+@media (max-width: 1089px) {
+    .resume_generico .experience_content,
+    .education_content {
+        justify-self: center;
+        grid-column: 1/-1;
+    }
+
+    .resume_generico .education {
+        grid-column: 1/-1;
+        grid-row: 3;
+    }
+}
