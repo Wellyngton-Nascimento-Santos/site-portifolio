@@ -619,5 +619,40 @@ main .sobre {
     .resume_generico .education {
         grid-column: 1/-1;
         grid-row: 3;
+        justify-self: center;
+        margin: 30px 0;
+    }
+
+    .resume_generico .experience {
+        grid-column: 1/-1;
+        grid-row: 1;
+        justify-self: center;
+    }
+
+    .cursos {
+        grid-template-columns: 1fr;
+    }
+
+    .cursos .curiosidades h2 {
+        justify-self: center;
+    }
+
+    .cursos .curiosidades {
+        margin-bottom: 30px;
+        text-align: center;
+        grid-template-columns: 1fr;
+        justify-self: center;
+        grid-column: 1;
+    }
+
+    .cursos .my_skill h2 {
+        justify-self: center;
+    }
+
+    .cursos .my_skill {
+        text-align: center;
+        grid-template-columns: 1fr;
+        justify-self: center;
+        grid-column: 1;
     }
 }
