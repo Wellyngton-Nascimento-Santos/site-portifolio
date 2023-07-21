@@ -151,4 +151,4 @@ buttonGeral.forEach((item)=>{
             showLista(listaALL, "all");
         }
     })
-})
+});
