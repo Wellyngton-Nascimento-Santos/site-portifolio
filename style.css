@@ -500,9 +500,9 @@ main .sobre {
 
 .cursos {
     margin-top: 50px;
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: start;
+    align-items: center;
     padding: 30px;
     gap: 30px;
     justify-content: center;
@@ -519,7 +519,7 @@ main .sobre {
     font-size: 1.5rem;
     font-family: 'Poppins';
     margin-bottom: 30px;
-    justify-self: start;
+    justify-self: center;
 }
 
 .my_skill h2 i {
