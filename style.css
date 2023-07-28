@@ -696,7 +696,7 @@ main .sobre {
 
 .projects_armazenamento ul {
     display: grid;
-    margin-top: 60px;
+    margin-top: 20px;
     gap: 20px;
     justify-content: center;
     grid-template-columns: repeat(4, 1fr);
@@ -706,6 +706,13 @@ main .sobre {
     display: none;
     max-width: 100%;
     height: 100%;
+}
+
+
+
+.projects_armazenamento ul a li  {
+    text-decoration: none;
+    display: none;
 }
 
 .projects_armazenamento ul li.ativo {
@@ -732,7 +739,7 @@ main .sobre {
 @keyframes animationImagemButton {
     0% {
         opacity: 0;
-        transform: translate3d(0, -30px, 0);
+        transform: translate3d(0, -20px, 0);
     }
 
     100% {

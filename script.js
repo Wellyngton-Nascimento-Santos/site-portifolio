@@ -104,23 +104,23 @@ buttonGeral.forEach((item, index)=>{
 })
 
 
-function showLista(lista, buttom = "all"){
+function showLista(lista, buttom = "todos"){
     lista.forEach((item)=>{
         item.classList.remove('ativo');
     })
-    if(buttom == 'design'){
-        lista[0].classList.add('ativo');
+    if(buttom == 'finalizados'){
         lista[1].classList.add('ativo');
-    }
-    if(buttom == 'graphic'){
         lista[2].classList.add('ativo');
         lista[3].classList.add('ativo');
-    }if(buttom == 'website'){
         lista[4].classList.add('ativo');
         lista[5].classList.add('ativo');
         lista[6].classList.add('ativo');
         lista[7].classList.add('ativo');
-    }if(buttom == 'all'){
+    }
+    if(buttom == 'andamento'){
+        lista[0].classList.add('ativo');
+    }
+    if(buttom == 'todos'){
         lista[0].classList.add('ativo');
         lista[1].classList.add('ativo');
         lista[2].classList.add('ativo');
@@ -135,20 +135,17 @@ function showLista(lista, buttom = "all"){
 buttonGeral.forEach((item)=>{
     item.addEventListener('click', (e)=>{
         let currentButton = e.target;
-        if(currentButton.classList.contains('all')){
+        if(currentButton.classList.contains('todos')){
             showLista(listaALL);
         }
-        if(currentButton.classList.contains('design')){
-            showLista(listaALL, "design");
+        if(currentButton.classList.contains('finalizados')){
+            showLista(listaALL, "finalizados");
         }
-        if(currentButton.classList.contains('graphic')){
-            showLista(listaALL, "graphic");
+        if(currentButton.classList.contains('andamento')){
+            showLista(listaALL, "andamento");
         }
-        if(currentButton.classList.contains('website')){
-            showLista(listaALL, "website");
-        }
-        if(currentButton.classList.contains('all')){
-            showLista(listaALL, "all");
+        if(currentButton.classList.contains('todos')){
+            showLista(listaALL, "todos");
         }
     })
 });
@@ -170,3 +167,41 @@ function ocultar(){
 }
 
 ocultar();
+
+
+
+const urlDonadella = "https://github.com/somentedois/Donnadela-Commerce",
+ urlPizzaria = "https://github.com/Wellyngton-Nascimento-Santos/pizzaria-cli",
+ urlLogin = "https://github.com/Wellyngton-Nascimento-Santos/login",
+ urlCadastro = "https://github.com/Wellyngton-Nascimento-Santos/Cadastro",
+ urlDashboard = "https://github.com/Wellyngton-Nascimento-Santos/dashboard",
+ urlFormulario = "https://github.com/Wellyngton-Nascimento-Santos/formulario",
+ urlFlexbox1 = "https://github.com/Wellyngton-Nascimento-Santos/flexbox1",
+ urlFlexbox2 = "https://github.com/Wellyngton-Nascimento-Santos/flexbox2";
+
+const btnDonadella = document.querySelector("#btnDonadella"),
+ btnPizzaria = document.querySelector("#btnPizzaria"),
+ btnLogin = document.querySelector("#btnLogin"),
+ btnCadastro = document.querySelector("#btnCadastro"),
+ btnDashboard = document.querySelector("#btnDashboard"),
+ btnFormulario = document.querySelector("#btnFormulario"),
+ btnFlexbox1 = document.querySelector("#btnFlexbox1"),
+ btnFlexbox2 = document.querySelector("#btnFlexbox2");
+
+function openDonadella(urlDonadella) {
+    const win = window.open(urlDonadella, '_blank');
+    win.focus();
+}
+
+btnDonadella.addEventListener('click', function(){
+    openDonadella(urlDonadella);
+});
+
+function openPizzaria(urlPizzaria) {
+    const win = window.open(urlPizzaria, '_blank');
+    win.focus();
+}
+
+btnPizzaria.addEventListener('click', function(){
+    openPizzaria(urlPizzaria);
+});
