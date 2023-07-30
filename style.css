@@ -302,7 +302,7 @@ main .sobre {
     .section-div {
         background-image: url(img/inicio-portfolio.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
 
     header {
@@ -338,7 +338,7 @@ main .sobre {
 @media (max-width: 992px) {
     .sobre img {
         grid-column: 1/-1;
-        justify-self: start;
+        justify-self: center;
     }
 
     .sobre_conteudo {
