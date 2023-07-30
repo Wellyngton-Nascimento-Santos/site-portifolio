@@ -609,7 +609,7 @@ main .sobre {
     font-family: 'Poppins';
 }
 
-@media (max-width: 1089px) {
+@media (max-width: 992px) {
     .resume_generico .experience_content,
     .education_content {
         justify-self: center;
