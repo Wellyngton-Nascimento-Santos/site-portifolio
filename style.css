@@ -300,9 +300,9 @@ main .sobre {
     }
 
     .section-div {
-        background-image: url(img/inicio-portfolio.jpg);
-        background-size: contain;
-        /** background-repeat: no-repeat;**/
+        background-image: url(img/inicio-portfolio-inteira.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
 
     }
 
@@ -345,6 +345,12 @@ main .sobre {
 
     .sobre_conteudo {
         grid-column: 1/-1;
+    }
+
+    .sobre_info p {
+        grid-column: 1/-1;
+        display: grid;
+        justify-items: start;
     }
 }
 
@@ -685,7 +691,7 @@ main .sobre {
     font-family: 'Poppins';
     background-color: #222;
     border: 1px solid #333;
-    padding: 6px 20px;
+    padding: 5px 10px;
     color: #707070;
 }
 
@@ -706,8 +712,8 @@ main .sobre {
 
 .projects_armazenamento ul li {
     display: none;
-    max-width: 100%;
-    height: 100%;
+    max-width: 99%;
+    height: 99%;
 }
 
 
@@ -723,8 +729,8 @@ main .sobre {
 }
 
 .projects_armazenamento ul li img {
-    max-width: 100%;
-    height: 100%;
+    max-width: 99%;
+    height: 99%;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -733,7 +739,7 @@ main .sobre {
     background-color: #222;
     text-decoration: none;
     justify-self: center;
-    padding: 20px 40px;
+    padding: 10px 20px;
     border: 1px solid #333;
     color: #707070;
 }
