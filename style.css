@@ -301,8 +301,9 @@ main .sobre {
 
     .section-div {
         background-image: url(img/inicio-portfolio.jpg);
-        background-repeat: no-repeat;
         background-size: contain;
+        /** background-repeat: no-repeat;**/
+
     }
 
     header {
