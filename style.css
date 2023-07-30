@@ -338,7 +338,7 @@ main .sobre {
 @media (max-width: 992px) {
     .sobre img {
         grid-column: 1/-1;
-        justify-self: center;
+        justify-self: start;
     }
 
     .sobre_conteudo {
