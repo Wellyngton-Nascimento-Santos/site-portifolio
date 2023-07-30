@@ -188,6 +188,7 @@ const btnDonadella = document.querySelector("#btnDonadella"),
  btnFlexbox1 = document.querySelector("#btnFlexbox1"),
  btnFlexbox2 = document.querySelector("#btnFlexbox2");
 
+
 function openDonadella(urlDonadella) {
     const win = window.open(urlDonadella, '_blank');
     win.focus();
@@ -197,6 +198,7 @@ btnDonadella.addEventListener('click', function(){
     openDonadella(urlDonadella);
 });
 
+
 function openPizzaria(urlPizzaria) {
     const win = window.open(urlPizzaria, '_blank');
     win.focus();
@@ -204,4 +206,63 @@ function openPizzaria(urlPizzaria) {
 
 btnPizzaria.addEventListener('click', function(){
     openPizzaria(urlPizzaria);
+});
+
+
+function openLogin(urlLogin) {
+    const win = window.open(urlLogin, '_blank');
+    win.focus();
+}
+
+btnLogin.addEventListener('click', function(){
+    openLogin(urlLogin);
+});
+
+
+function openCadastro(urlCadastro) {
+    const win = window.open(urlCadastro, '_blank');
+    win.focus();
+}
+
+btnCadastro.addEventListener('click', function(){
+    openCadastro(urlCadastro);
+});
+
+
+function openDashboard(urlDashboard) {
+    const win = window.open(urlDashboard, '_blank');
+    win.focus();
+}
+
+btnDashboard.addEventListener('click', function(){
+    openDashboard(urlDashboard);
+});
+
+
+function openFormulario(urlFormulario) {
+    const win = window.open(urlFormulario, '_blank');
+    win.focus();
+}
+
+btnFormulario.addEventListener('click', function(){
+    openFormulario(urlFormulario);
+});
+
+
+function openFlexbox1(urlFlexbox1) {
+    const win = window.open(urlFlexbox1, '_blank');
+    win.focus();
+}
+
+btnFlexbox1.addEventListener('click', function(){
+    openFlexbox1(urlFlexbox1);
+});
+
+function openFlexbox2(urlFlexbox2) {
+    const win = window.open(urlFlexbox2, '_blank');
+    win.focus();
+}
+
+btnFlexbox2.addEventListener('click', function(){
+    openFlexbox2(urlFlexbox2);
 });
