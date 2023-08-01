@@ -82,7 +82,7 @@ header .navegacao-primaria li a:hover::after {
 }
 
 .section-div div {
-    margin-top: 55px;
+    margin-top: 5px;
     align-self: start;
     display: grid;
     gap: 30px;
@@ -117,7 +117,7 @@ header .navegacao-primaria li a:hover::after {
 }
 
 .section-div img {
-    margin-top: 50px;
+    margin-top: 5px;
     max-width: 39%;
     border-radius: 4px;
 }
@@ -169,7 +169,7 @@ main .sobre {
 }
 
 .sobre_titulo {
-    margin: 30px 0;
+    margin: 10px 0;
     grid-column: 1/-1;
     text-align: center;
     color: #fff;
@@ -210,6 +210,7 @@ main .sobre {
     max-width: 100%;
     border-radius: 4px;
     filter: blur(0);
+    justify-items: start;
 }
 
 .sobre img:hover{
@@ -357,11 +358,16 @@ main .sobre {
         grid-column: 1/-1;
     }
 
+    .sobre_texto p {
+        margin-bottom: 50px;
+    }
+
     .sobre_info p {
         grid-column: 1/-1;
         display: grid;
         justify-items: start;
     }
+
 }
 
 /* EXPERIENCIAS */
@@ -517,7 +523,7 @@ main .sobre {
 /*HABILIDADES*/
 
 .cursos {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
@@ -538,6 +544,7 @@ main .sobre {
     font-family: 'Poppins';
     margin-bottom: 30px;
     justify-self: center;
+    font-weight: bold;
 }
 
 .my_skill h2 i {
@@ -551,10 +558,12 @@ main .sobre {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     margin-top: 10px;
+
 }
 
 .skill_content {
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .skill_content ul {
