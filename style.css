@@ -731,8 +731,8 @@ main .sobre {
 
 .projects_armazenamento ul li {
     display: none;
-    max-width: 99%;
-    height: 99%;
+    max-width: 100%;
+    height: 100%;
 }
 
 
@@ -748,8 +748,8 @@ main .sobre {
 }
 
 .projects_armazenamento ul li img {
-    max-width: 99%;
-    height: 99%;
+    max-width: 100%;
+    height: 100%;
     border-radius: 4px;
     cursor: pointer;
 }
