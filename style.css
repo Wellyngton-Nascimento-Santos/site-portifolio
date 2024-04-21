@@ -333,7 +333,7 @@ main .sobre {
     }
 
     header .navegacao-primaria.ativado {
-        background: linear-gradient(rgba(43, 42, 42, 0.176), rgba(46, 46, 46, 0.724));
+        background: black; /** linear-gradient(rgba(43, 42, 42, 0.176), rgba(46, 46, 46, 0.724))**/
         position: absolute;
         display: grid;
         top: 80px;
